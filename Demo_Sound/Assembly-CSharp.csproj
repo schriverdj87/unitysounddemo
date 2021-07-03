@@ -63,7 +63,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\MainGameCore.cs" />
-    <Compile Include="Assets\SoundWranglerCore.cs" />
+    <Compile Include="Assets\SndLibrary.cs" />
+    <Compile Include="Assets\SoundWrangler\SoundWranglerCore.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/UnityEditors/2019.4.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

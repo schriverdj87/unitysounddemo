@@ -256,7 +256,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Press F to Hear the Sound
+  m_Text: Press 1 - 4 to Play Sound
 --- !u!222 &179607569
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -377,7 +377,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a54ce9b9e8d7c24d9b44113555e3d84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound: {fileID: 8300000, guid: 0f906d90092c00842a6e71089b6677a6, type: 3}
+  sounds:
+  - {fileID: 8300000, guid: 0f906d90092c00842a6e71089b6677a6, type: 3}
+  - {fileID: 8300000, guid: b793a4df638627e458f534df8fbcbafd, type: 3}
+  - {fileID: 8300000, guid: f5bf4c304c0ffff4aaaeda200b408da0, type: 3}
+  - {fileID: 8300000, guid: 0f5ce8e3e3dee67409c02c52b37819ea, type: 3}
+  music:
+  - {fileID: 8300000, guid: 0d4a57cef3a8a56488b78f197a58aa1d, type: 3}
+  volume: 0.926
+  volumeMusic: 0.5
 --- !u!4 &604564326
 Transform:
   m_ObjectHideFlags: 0
@@ -421,7 +429,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 565b46035a01ee8409011579741b12f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swc: {fileID: 604564325}
 --- !u!4 &1704480511
 Transform:
   m_ObjectHideFlags: 0
